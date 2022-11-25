@@ -62,20 +62,20 @@ export function header({ homePath, githubURL = '', isHome } = {}) {
       ],
     },
     ...getReferrals(),
-    {
-      menu: true,
-      href: githubURL,
-      target: '__blank',
-      label: '编辑',
-      children: [editor],
-    },
+//    {
+//      menu: true,
+//      href: githubURL,
+//      target: '__blank',
+//      label: '编辑',
+//      children: [editor],
+//    },
     ...darkMode({ homePath, isHome }),
-    {
-      menu: true,
-      href: 'https://github.com/jaywcjlove/reference',
-      target: '__blank',
-      children: [github],
-    },
+//    {
+//      menu: true,
+//      href: 'https://github.com/jaywcjlove/reference',
+//      target: '__blank',
+//      children: [github],
+//    },
   ];
   return {
     type: 'element',
