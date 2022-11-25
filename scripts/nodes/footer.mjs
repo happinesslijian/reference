@@ -1,7 +1,7 @@
 import formatter from '@uiw/formatter';
 
 export function footer({ isHome } = {}) {
-  let footerText = '© 2022 Kenny Wang.';
+  let footerText = '© 2022 TuiXiang.';
   if (isHome) {
     const now = new Date();
     const utc = now.getTime() + now.getTimezoneOffset() * 60000;
